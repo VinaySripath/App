@@ -1,0 +1,36 @@
+<div>
+  <div>
+    <table
+      style="width: 100%; height: 40px; background-color: rgb(39, 131, 134)"
+    >
+      <tr>
+        <td
+          id="pagetitle"
+          style="
+            width: 80%;
+            font-weight: 800;
+            padding: 10px;
+            font-size: xx-large;
+          "
+        >
+          AI Tech
+        </td>
+        <td>Welcome {{ username }}</td>
+        <td><button>Logout</button></td>
+      </tr>
+    </table>
+  </div>
+  <div id="maincontainer">
+    <app-side></app-side>
+    <!-- <a
+      [routerLink]="['/home', { outlets: { outlettest: 'test' } }]"
+      [queryParams]="{ uid: queryusername }"
+      >Click Here</a
+    >
+    <router-outlet name="outlettest"></router-outlet> -->
+    <app-main></app-main>
+  </div>
+  <div>
+    <div><app-footer></app-footer></div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+<div id="content">
+  <div id="course" *ngFor="let c of allCourses">
+    <p id="name" #name>
+      {{ c.courseName }}
+    </p>
+    <div id="midele">
+      <p>
+        This Course covers all topics in depth, with a 100% practical approach
+        to learning. We provide 20+ projects, portfolio building and placement
+        assistance. Learn at your own pace with recorded videos and also access
+        our live classes and doubt clearing sessions on difficult topics.
+      </p>
+      <button type="button" (click)="doEnrol(c.courseName)">Enrol</button>
+    </div>
+    <div id="endele">
+      <div>
+        <p>Cost : {{ c.courseFee }}</p>
+        <p>Language : {{ c.language }}</p>
+      </div>
+      <div>
+        <p>Course Rating : {{ c.rating }}</p>
+        <p>Level : {{ c.level }}</p>
+      </div>
+    </div>
+  </div>
+</div>

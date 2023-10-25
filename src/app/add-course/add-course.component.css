@@ -1,0 +1,41 @@
+#maincontainer {
+  display: flex;
+  margin-top: 1px;
+  width: 100%;
+  margin-bottom: 1px;
+  margin-right: 20px;
+  background-color: cadetblue;
+}
+#pagetitle {
+  color: rgb(219, 255, 255);
+  text-shadow: 1px 1px 5px rgb(23, 48, 48);
+}
+button {
+  background-color: aqua;
+  border-color: aqua;
+  border-radius: 10px;
+}
+form {
+  padding: 20px;
+  margin: 10px;
+  margin-left: 300px;
+  border: 2px solid rgb(193, 255, 255);
+  border-radius: 10px;
+  background-color: rgb(229, 253, 253);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.row {
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+input {
+  margin: 0px 10px;
+}
+label {
+  width: 100px;
+}
